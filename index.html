@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somnia</title>
+    <!--link a bootstrap 5.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--link a font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="./multimedia/favicon.ico" type="image/x-icon">
+    <!--link a mi css-->
+    <link rel="stylesheet" href="./css/estilo.css">
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!--logoynombreNav-->
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="./index.html">
+                        <img src="./imagenes/logoSomnia.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top ">
+                      </a>
+                    </div>
+                  </nav>
+   
+            <!--botonNav-->
+             <button class="navbar-toggler boton-lateral" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SOMNIA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./paginas/sets.html">Sets</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./paginas/calendario.html">Calendario</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Multimedia
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./paginas/multimedia.html">Fotos</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="https://www.youtube.com/@Play_Somnia" target="_blank">Videos</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="https://open.spotify.com/user/31hjlfkevkhoahzk4itwz3btesmi" target="_blank" >Musica</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row caja-1">
+            <div class="col-6 presentacion">
+                <h2>HOLA!</h2>
+                <p>Soy Somnia, un chico de 27 años que estudia una diplomatura de full stack web developer en CoderHouse.
+                    Esta pagina esta dedicada a mi proyecto de dj. Aca vas a poder encontrar mis sets, fotos, fechas y mas.
+                    A continuacion te dejo una breve presentacion, gracias por visitar, nos vemos pronto!
+                </p>
+            </div>
+            <div class="col-6">
+            <div class="card" >
+                <img src="./imagenes/FotoMiaMendoza.png" class="card-img-top p-2 fotomendoza" alt="fotomia">
+                <div class="card-body">
+                  <h5 class="card-title">Un poco de mi</h5>
+                  <p class="card-text">Soy de Buenos Aires, Argentina. Desde chico me gustaba mucho el tema de la musica y un dia sin darme cuenta habia encontrado lo que siempre habia buscado.</p>
+                  <a href="./paginas/contacto.html" class="btn btn-secondary">Leer historia completa</a>
+                </div>
+            </div>
+        </div> 
+
+    </main>
+    <p class="frase-medio">De que va esto?
+    </p>
+    <div class="contenedorMedio">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card text-bg-dark">
+                <div class="card-body">
+                  <h5 class="card-title">Sets</h5>
+                  <p class="card-text">Aca vas a poder escuchar los sets que vaya haciendo, por lo general es musica variada. Voy a probar de acomodar dos dias fijos para tocar y segun el dia sera el contenido</p>
+                  <a href="./paginas/sets.html" class="btn btn-secondary">Ir a Sets</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card text-bg-dark">
+                <div class="card-body">
+                  <h5 class="card-title">Fotos</h5>
+                  <p class="card-text">En esta parte vas a poder ver las fechas donde toque y futuras 
+                  </p>
+                  <a href="./paginas/multimedia.html" class="btn btn-secondary">Ir a Fotos</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedorMedio2">
+        </div>
+
+    </div>
+    <div class="contenedorMedio">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card text-bg-dark">
+                <div class="card-body">
+                  <h5 class="card-title">Videos</h5>
+                  <p class="card-text">Aca va a haber videos de stream, por ahora primero van a ser tocando en vivo pero despues tal vez agregue una seccion de streams jugando y charlando a medida que vayamos creciendo asi nos vamos conociendo un poco mas</p>
+                  <a href="./paginas/multimedia.html" class="btn btn-secondary">Ir a Videos</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card text-bg-dark">
+                <div class="card-body">
+                  <h5 class="card-title">Calendario</h5>
+                  <p class="card-text">Aca va a ver muchas cosas, pero primero un apartado de fotos en la cual mostrare los lugares a los que asisti, donde toque y cosas que muestren este camino que voy recorriendo.
+                  </p>
+                  <a href="./paginas/calendario.html" class="btn btn-secondary">Ir a Calendario</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedorMedio2">
+        </div>
+
+
+    </div>
+    <div class="contenedorFinal">
+        <div class="row m-2">
+            <div class="card p-3 m-4 links-musica" style="width: 25rem;">
+                <img src="./imagenes/eventogolfers2.jpeg" class="card-img-top" alt="evento2golfer">
+                <div class="card-body">
+                  <h5 class="card-title">No te quedes solo aca</h5>
+                  <p class="card-text">Tambien me vas a poder encontrar en otras plataformas como YouTube y Spotify, aca te dejo los links por si los queres ir a chusmear.</p>
+                </div>
+                <div class="card-body d-grid gap-2 d-md-flex">
+                  <a href="https://www.youtube.com/@Somnia-oficial" target="_blank" class="btn btn-outline-dark p">YouTube <img class="logos" src="./imagenes/logoYoutube.png" alt="logoYoutube">
+                  </a>
+                  <a href="https://open.spotify.com/user/31hjlfkevkhoahzk4itwz3btesmi" class="btn btn-outline-dark" target="_blank">Spotify <img src="./imagenes/logoSpotify.png" class="logos" alt="logoSpotify"></a>
+                </div>
+              </div>
+              <div class="card mensajes">
+                <div class="card-body tarjeta-contacto">
+                  <h5 class="card-title">Contactame</h5>
+                  <p class="card-text">Si llegaste hasta aca y te gusto lo que viste dejame un comentario de que te parecio, que musica deberia poner o lo que quieras!
+                  </p>
+                  <a href="./paginas/contacto.html" class="btn btn-secondary">Contacto</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <p class="despedida">Gracias por visitar! Si queres ver un poco mas alla de lo que hago seguime en mis redes sociales.
+        Nos vemos en la pista!
+    </p>
+
+
+    <footer class="final">
+        <div class="row iconosRedes">
+         <div class="redes">
+            <a href="https://www.instagram.com/somnia.ok/?hl=es" target="_blank">
+                <img class="logos" src="./imagenes/logoIg.png" alt="instagram">
+            </a>      
+          </div> 
+          <div class="redes">
+            <a href="https://www.twitch.tv/somniaofficial" target="_blank">
+              <img class="logos" src="./imagenes/logoTwich.png" alt="twich">
+            </a>  
+          </div>
+          <div class="redes">
+            <a href="https://x.com/?lang=es" target="_blank">
+              <img class="logos" src="./imagenes/logoX.png" alt="twitter">
+            </a>  
+          </div>
+
+
+        </div>
+        
+
+
+    </footer>
+
+      
+
+    
+
+   
+
+
+      <!--link a js de bootstrap-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

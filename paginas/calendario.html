@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMNIA</title>
+    <link rel="shortcut icon" href="../multimedia/favicon.ico" type="image/x-icon">
+    <!--link a bootstrap 5.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--link a font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="../multimedia/favicon.ico" type="image/x-icon">
+    <!--link a mi css-->
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!--logoynombreNav-->
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="../index.html">
+                        <img src="../imagenes/logoSomnia.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top ">
+                      </a>
+                    </div>
+                  </nav>
+   
+            <!--botonNav-->
+             <button class="navbar-toggler boton-lateral" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SOMNIA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../paginas/sets.html">Sets</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../paginas/calendario.html">Calendario</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Multimedia
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../paginas/multimedia.html">Fotos</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="https://www.youtube.com/@Play_Somnia" target="_blank">Videos</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="https://open.spotify.com/user/31hjlfkevkhoahzk4itwz3btesmi" target="_blank" >Musica</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="medioCalendario">
+        <h1>Calendario de Eventos</h1>
+        <div class="row m-3 mediocal">
+            <table class="table table-hover col-6 table-danger">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Evento</th>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Lugar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Informal</td>
+                    <td>06/01/2023</td>
+                    <td>Golfers Country Club</td>
+
+                  </tr>
+
+
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Informal</td>
+                    <td>20/09/2024</td>
+                    <td>Mapuche Country Club</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Informal</td>
+                    <td>21/09/2024</td>
+                    <td>Golfers Country Club</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h1>Proximamente mas...</h1>
+              <div class="fototext">
+                <div>
+                  <div class="card" style="width: 25rem;">
+                    <img src="../imagenes/fotoArjaus de tamaño mediano.jpeg" class="card-img-top" alt="contr-arjaus">
+                    <div class="card-body">
+                      <h5 class="card-title">Revivi cada momento</h5>
+                      <p class="card-text">Si queres ver que fue de cada evento te invito a ver las fotos en mi galeria</p>
+                      <a href="../paginas/multimedia.html" class="btn btn-primary">Ir a Fotos</a>
+                    </div>
+                  </div>
+                </div>
+    </main>
+
+    <footer class="final">
+        <div class="row iconosRedes">
+          <div class="redes">
+            <a href="https://www.instagram.com/somnia.ok/?hl=es" target="_blank">
+                <img class="logos" src="../imagenes/logoIg.png" alt="instagram">
+            </a>      
+          </div> 
+          <div class="redes">
+            <a href="https://www.twitch.tv/somniaofficial" target="_blank">
+              <img class="logos" src="../imagenes/logoTwich.png" alt="twich">
+            </a>  
+          </div>
+          <div class="redes">
+            <a href="https://x.com/?lang=es" target="_blank">
+              <img class="logos" src="../imagenes/logoX.png" alt="twitter">
+            </a>  
+          </div>
+
+
+        </div>
+        
+
+
+    </footer>
+
+
+
+    <!--link a js de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>

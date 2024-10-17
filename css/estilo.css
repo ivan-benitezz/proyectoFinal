@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*menu*/
+
+
+.navbar{
+    background-color: rgb(39, 35, 69);
+    z-index: 1;
+}
+.navbar-toggler{
+    background-color: rgb(39, 35, 69);
+    border: solid rgb(161, 61, 123);
+ 
+    
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(161, 61, 123, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+.offcanvas{
+    background-color:rgb(179, 84, 179);
+    
+}
+.dropdown-menu {
+    background-color: violet;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: transparent;
+    color: white;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: visible;
+
+}
+.boton-lateral{
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: visible;
+    margin: 40px;
+    color: transparent;
+    z-index: 1;
+
+}
+
+/* parte del medio */
+.container{
+    background-color: rgba(207, 77, 207, 0.573);
+    font-family: "Playfair Display", serif;
+    margin-top: 130px;
+}
+.card{
+    background-color: rgba(221, 205, 164, 0.697);
+    padding: 5px;
+    margin: 1rem;
+    font-family: "Playfair Display", serif;
+
+}
+
+.presentacion{
+    text-align: center;
+    align-content: center;
+}
+.frase-medio{
+    text-align: center;
+    padding: 100px;
+    font-size: 70px;
+    font-family: "Playfair Display", serif;
+}
+.contenedorMedio{
+    font-family: "Playfair Display", serif;
+}
+.mensajes{
+    width: 27rem;
+    
+}
+.despedida{
+    padding: 10px;
+    margin: 8px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+}
+/*pag Sets*/
+
+.medioSets{
+    margin-top: 130px;
+}
+.texto{
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+}
+/*pag calendario*/
+.medioCalendario{
+    margin-top: 130px;
+    font-family: "Playfair Display", serif;
+}
+h1{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    
+}
+.foto-tocando{
+    width: 250px;
+    
+}
+.fototext{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*pag mult*/
+.contenedorMult{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.video30{
+    width: 450px;
+}
+.imagen-tocando{
+    width: 300px;
+}
+.iframe{
+    text-align: center;
+}
+
+/*parte de abajo*/
+footer{
+    background-color: rgb(39, 35, 69);
+    width: 100vw;
+    position: static;
+    bottom: 0;
+    height: 60px;
+}
+.iconosRedes{
+    display: flex;
+    justify-content: center;
+}
+.redes{
+   margin: 10px;
+   width: 1%;  
+}
+.logos{
+    width: 30px;
+    height: 30px;
+}
+
+/*biog y form*/
+.historia{
+    padding: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    background-color: transparent;
+    border: 2px solid black;
+    
+    width: 450px;
+    text-align: center;
+
+}
+
+
+/*mediaQueries*/
+@media (min-width: 1200px){
+    body{
+        background-color: rgb(179, 84, 179);
+        overflow-x: hidden;
+    }
+    .mensajes{
+        width: 650px;
+        height: 190px;
+    }
+}
+
+@media (max-width: 1200px){
+    body{
+        background-color: rgb(179, 84, 179);
+        overflow-x: hidden;
+    }
+    .mensajes{
+        width: 650px;
+        height: 200px;
+    }
+ 
+}
+@media (max-width: 768px){
+    body{
+        background-color: rgb(179, 84, 179);
+        overflow-x: hidden;
+    }
+    .caja-1{
+        background-color: rgba(207, 77, 207, 0.573);
+    }
+    .contenedorFinal{
+        display: flex;
+        justify-content: center;
+        margin: 0 200px;
+    }
+    .mensajes{
+        width: 400px;
+        height: 230px;
+    }       
+}
+@media (max-width: 480px){
+    body{
+        background-color:rgb(179, 84, 179); 
+        overflow-x: hidden;
+    }
+    footer{
+        position: static;
+
+    }
+    .mensajes{
+        width: 400px;
+        height: 230px;
+    }  
+    .historia{
+        font-size: 18px;
+        
+    } 
+}

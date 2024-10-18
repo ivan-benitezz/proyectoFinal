@@ -1,0 +1,20 @@
+@import "variables";
+@import"menu";
+@import"pagprin";
+@import"footer";
+@import"pagset";
+@import"multimedia";
+@import"biog";
+body{
+    background-color: $claromenu;
+    overflow-x: hidden;
+    font-family:"Playfair Display", serif; 
+}
+@media (max-width: 480px){
+    .video30{
+        width: 400px;
+    }
+
+}
+
+

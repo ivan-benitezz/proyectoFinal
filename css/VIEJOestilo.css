@@ -1,0 +1,73 @@
+
+/*menu*/
+/* parte del medio */
+/*pag Sets*/
+/*pag calendario*/
+/*pag mult*/
+
+/*parte de abajo*/
+
+
+/*biog y form*/
+
+
+
+/*mediaQueries*/
+@media (min-width: 1200px){
+    body{
+        background-color: rgb(179, 84, 179);
+        overflow-x: hidden;
+    }
+    .mensajes{
+        width: 650px;
+        height: 190px;
+    }
+}
+
+@media (max-width: 1200px){
+    body{
+        background-color: rgb(179, 84, 179);
+        overflow-x: hidden;
+    }
+    .mensajes{
+        width: 650px;
+        height: 200px;
+    }
+ 
+}
+@media (max-width: 768px){
+    body{
+        background-color: rgb(179, 84, 179);
+        overflow-x: hidden;
+    }
+    .caja-1{
+        background-color: rgba(207, 77, 207, 0.573);
+    }
+    .contenedorFinal{
+        display: flex;
+        justify-content: center;
+        margin: 0 200px;
+    }
+    .mensajes{
+        width: 400px;
+        height: 230px;
+    }       
+}
+@media (max-width: 480px){
+    body{
+        background-color:rgb(179, 84, 179); 
+        overflow-x: hidden;
+    }
+    footer{
+        position: static;
+
+    }
+    .mensajes{
+        width: 400px;
+        height: 230px;
+    }  
+    .historia{
+        font-size: 18px;
+        
+    } 
+}

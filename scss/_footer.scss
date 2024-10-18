@@ -1,0 +1,23 @@
+.final{
+    background-color: rgb(39, 35, 69);
+    width: 100vw;
+    position: static;
+    bottom: 0;
+    height: 60px;
+
+
+    .iconosRedes{
+        display: flex;
+        justify-content: center;
+        .redes{
+            margin: 10px;
+            width: 1%;
+            .logos{
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+    }
+  
+}
